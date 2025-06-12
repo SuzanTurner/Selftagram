@@ -1,8 +1,8 @@
 # 📸 Selfstagram
 
-**Selfstagram** is a Django-based web application that allows users to register, log in, and upload their personal photos. Each user gets their own private gallery — simple, clean, and secure.
+**Selfstagram** is a Django-based web application that allows users to register, log in, and upload their personal photos. 
 
----
+Each user gets their own private gallery — simple, clean, and secure.
 
 ## 🚀 Features
 
@@ -12,15 +12,11 @@
 - 📦 Media file handling via `MEDIA_ROOT` and `MEDIA_URL`
 - 🎨 Styled with Bootstrap for a responsive UI
 
----
-
 ## 🛠️ Tech Stack
 
 - **Backend:** Django (Python)
 - **Frontend:** HTML, Bootstrap
 - **Database:** SQLite (default)
-
----
 
 ## 📂 Project Structure
 
@@ -34,9 +30,6 @@ selfstagram/
 ├── manage.py
 └── README.md
 ```
-
-
----
 
 ## ⚙️ Getting Started
 
@@ -72,6 +65,8 @@ python manage.py createsuperuser
 ```
 python manage.py runserver
 ```
+
+## Author - Yadhnika Wakde (ThE_CrUd_LaDy)
 
 
 

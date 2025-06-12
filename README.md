@@ -22,12 +22,13 @@ Each user gets their private gallery — simple, clean, and secure.
 
 ```
 selfstagram/
-├── selfstagram/ # Main Django settings
-├── myapp/ # App containing views, models, forms
-├── templates/ # HTML templates
-├── media/ # Uploaded images
-├── static/ # Static files (optional)
+├── selfstagram/ 
+├── myapp/ 
+├── templates/
+├── media/ 
+├── db.sqlite3
 ├── manage.py
+├── requirements.txt
 └── README.md
 ```
 

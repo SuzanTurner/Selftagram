@@ -93,3 +93,20 @@ def profile(request, username):
             "liked_image_ids": liked_image_ids,
         },
     )
+
+@login_required
+def search_users(request):
+    query = request.GET.get("q", "").strip()
+
+    users = User.objects.filter(
+        username__icontains=query
+    ) if query else User.objects.none()
+
+    return render(
+        request,
+        "myapp/search.html",
+        {
+            "query": query,
+            "users": users,
+        },
+    )

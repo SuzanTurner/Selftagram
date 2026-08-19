@@ -14,4 +14,5 @@ urlpatterns = [
     path('like/<int:image_id>/', views.toggle_like, name='toggle_like'),
     path('comment/<int:image_id>/', views.add_comment, name='add_comment'),
     path('profile/<str:username>/', views.profile, name='profile'),
+    path('search/', views.search_users, name='search_users'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

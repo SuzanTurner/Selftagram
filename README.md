@@ -37,7 +37,7 @@ selfstagram/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/SuzanTurner/selfstagram.git
+git clone https://github.com/SuzanTurner/selftagram.git
 cd selfstagram
 ```
 ### 2. Create a virtual environment

@@ -4,13 +4,13 @@
 
 Each user gets their private gallery — simple, clean, and secure.
 
-## 🚀 Features
+## Features
 
-- 🔐 User Authentication (Register, Login, Logout)
-- 🖼️ Upload and view images
-- 🧑‍🦱 User-specific galleries
-- 📦 Media file handling via `MEDIA_ROOT` and `MEDIA_URL`
-- 🎨 Styled with Bootstrap 
+- User Authentication (Register, Login, Logout)
+- Upload and view images
+- User-specific galleries
+- Media file handling via `MEDIA_ROOT` and `MEDIA_URL`
+- Styled with Bootstrap 
 
 ## 🛠️ Tech Stack
 
@@ -37,7 +37,7 @@ selfstagram/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/selfstagram.git
+git clone https://github.com/SuzanTurner/selfstagram.git
 cd selfstagram
 ```
 ### 2. Create a virtual environment
